@@ -1,0 +1,53 @@
+/* Estilos para el encabezado */
+header {
+    background-color: #dadb8a;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+
+header img {
+    width: 150px;
+    height: auto;
+    margin-right: 1px;
+}
+
+header h1 {
+    color: #333;
+    font-size: 50px;
+    margin: 0;
+    line-height: 60px;
+}
+
+/* Estilos para la imagen de fondo */
+a {
+    display: block;
+    height: auto;
+}
+
+a img {
+    display: block;
+    width: 50%;
+    height: auto;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Estilos para el pie de página */
+footer {
+    background-color: #dadb8a;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+footer p {
+    margin: 0;
+    font-size: 14px;
+    color: #666;
+}
